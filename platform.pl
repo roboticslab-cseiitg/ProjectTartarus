@@ -1,7 +1,7 @@
 %---------------------------------------------------------------------------
 %---------------------------------------------------------------------------
 /*
-Copyright (C) 2017  Robotics Lab., Dept. of Computer Science and Engg., Indian Institutue of Technology Guwahati
+Copyright (C) 2017  Robotics Lab., Dept. of Computer Science and Engg., Indi Institute of Technology Guwahati
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -91,24 +91,24 @@ make_platform_Tartarus_IITG(Ip,Port) :-                                         
         asserta(guid_threadid(t_worker,Worker_id)),
         retractall(platform_state(_)),
         assert(platform_state(on)),
-      	writeln('************************************************************'),
-	ansi_format([bold,fg(green)],'          Welcome to Tartarus Multi-Agent Platform ~w.',[.]),nl,
-	ansi_format([bold,fg(green)],'                (Ver.1.1, 30th January 2017)~w',[.]),nl,nl,
+      	writeln('************************************************'),
+	ansi_format([bold,fg(green)],'Welcome to Tartarus Multi-Agent Platform ~w.',[.]),nl,
+	ansi_format([bold,fg(green)],'(Ver.1.1, 30th January 2017)~w',[.]),nl,nl,
 	ansi_format([fg(blue)],'Copyrights 2017: Robotics Lab.,~w',[.]),nl,
-	ansi_format([fg(blue)],'                 Dept. of Computer Science & Engg.,~w',[.]),nl,
-	ansi_format([fg(blue)],'                 Indian Institute of Technology Guwahati,~w',[.]),nl,nl,
+	ansi_format([fg(blue)],'Dept. of Computer Science & Engg.,~w',[.]),nl,
+	ansi_format([fg(blue)],'Indian Institute of Technology Guwahati,~w',[.]),nl,nl,
 	ansi_format([fg(blue)],'For any query contact~w',[:]),nl, 
-	ansi_format([fg(blue)],'       semwaltushar@gmail~w',[com]),nl, 
-	ansi_format([fg(blue)],'       sbnair.tartarus@gmail.com~w',[in]),nl,
+	ansi_format([fg(blue)],'semwaltushar@gmail.~w',[com]),nl, 
+	ansi_format([fg(blue)],'sbnair.tartarus@gmail.com.~w',[in]),nl,
 	ansi_format([fg(red)],'Note: Relevant manuals are available inside the User Manuals folder~w',[.]),nl,
 	ansi_format([fg(red)],'           of the installation directory of Tartarus.~w',[.]),nl,
-	writeln('************************************************************'),
+        writeln('************************************************'),
         nl,
-        write('=============================================================='),nl,
+        write('==========================================='),nl,
         write('        Tartarus Platform launched!'),nl,
-        write('                         @             '),nl,
+        write('                                @             '),nl,
         write('        Running on IP = '),write(Ip),write(', '),write('Port = '),write(Port),nl,
-        write('=============================================================='),nl,
+        write('==========================================='),nl,
         nl).
 
 

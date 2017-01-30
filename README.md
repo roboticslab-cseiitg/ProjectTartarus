@@ -21,3 +21,29 @@ Tartarus can run on the Raspberry Pi. It can be used to sense the sensors on-boa
 * Payloads: A mobile agent within Tartarus can carry a set of programs/data as payload to be either executed at the destination node or be downloaded for use at some node. Agents can also be programmed to either upload/download/offload these payloads at specific nodes or based on an event. Changing a payload can thus facilitate the altering of the behaviour of an agent even in run time.
 
 * Security: Security implemented for the agents in Tartarus. Mobile agents can enter a node only if they possess a key (provided to them a priori). This key should match with the one in the platform installed at the node; else entry is rejected. Developers can put in a bit of effort to provide for a more sophisticated security arrangement based on their application.
+
+Check out a video on Tartarus here: https://www.youtube.com/watch?v=VeryfhtT5Tk
+
+# What has Tartarus been used for, so far?
+Agents provide for distributed, centralized/decentralized and concurrent executions across a network.
+They can execute asynchronously and autonomously. At the Robotics Lab. we have used it for a range of application scenarios which include –
+Networked Robot control, IoT based control, Indoor Localization, Synchronization, VANETs, Asynchronous Intelligence Sharing across a network, Decentralized Clonal Controller, On-the-fly-Programming, Green Corridors for urban traffic, IoT for Railways, Algorithm selection, Mutual Exclusions in Real Robots, Emulation of Bio-inspired mechanisms such as Pheromoning, Stigmergy, Clonal Selection, Idiotypic Networks, Genetic Algorithms, etc.
+
+# How can Tartarus help in other areas?
+A fairly stable version of Tartarus is now also available for the Raspberry Pi. We will be making the same available shortly. This version designated Agents-on-Pi (AgPi) also provides an interface to sensors and actuators on-board the Pi making it easier to program for autonomous decision making. This facilitates rapid prototyping of an intelligent Internet of Things (IoT).
+With data distributed across several nodes, agents (both static and mobile) can be programmed to process them in a decentralized and concurrent manner. Mobile agents can be made to move from one node to another and autonomously control the flow of information between such data islands. Bio-inspired (optimizing) algorithms, which are mostly decentralized and distributed, can be emulated, in almost the way Mother Nature does. By injecting new programs via agents, the behavior of a system can also be changed on-the-fly.
+Thinking aloud, it could be interesting to develop a network wherein the nodes programmed to behave like atoms/molecules in a liquid act concurrently. This could aid in the study of the ways in which a more complex protein molecule develops using mobile agents enacting as portions of the protein chain. Molecule formation could thus be investigated within a network.
+The platform could aid in the making smarter homes, even Green houses and campuses.
+Simulations could be given up for emulations in Tartarus based networks to churn better and more realistic data in decentralized and distributed scenarios.
+We leave it to you to think louder (!) and get back to the Tartarus team, if required, with the problems you need to tackle. We shall do our best to aid you in making this demon help you find a solution.
+
+# One last yet important note
+Tartarus culminated from years of work and yet we offer the same to you free. It is thus only logical that you cite the following papers when you publish your research derived using this software:
+
+Tushar Semwal, Nikhil S., Shashi Shekhar Jha, Shivashankar B. Nair, TARTARUS: A Multi­ Agent Platform for Bridging the gap between Cyber and Physical Systems, Proceedings of the 2016 Autonomous Agents and Multi Agent Systems Conference, (AAMAS), International Foundation for Autonomous Agents and Multiagent Systems, pp. 1493-1495, Singapore.
+
+Tushar Semwal, Shivashankar B. Nair, AgPi: Agents on Raspberry Pi, Electronics 2016, 5, 72.
+
+Cheers,
+
+- The Tartarus Team

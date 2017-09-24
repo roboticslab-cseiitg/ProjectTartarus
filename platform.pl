@@ -33,6 +33,8 @@ Copyright (C) 2017  Robotics Lab., Dept. of Computer Science and Engg., Indi Ins
 % # means optional parameter
 %------------------------------------------------------
 
+%%%----Windows-----%%%
+
 :- use_module(library(socket)).                                 %% using TCP/IP connection
 
 

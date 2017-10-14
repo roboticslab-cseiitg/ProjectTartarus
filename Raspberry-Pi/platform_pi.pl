@@ -1,7 +1,7 @@
 %---------------------------------------------------------------------------
 %---------------------------------------------------------------------------
 /*
-Copyright (C) 2017  Robotics Lab., Dept. of Computer Science and Engg., Indi Institute of Technology Guwahati
+Copyright (C) 2017  Robotics Lab., Dept. of Computer Science and Engg., Indian Institute of Technology Guwahati
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

@@ -1,0 +1,1 @@
+Logos and other images

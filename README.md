@@ -2,7 +2,7 @@
 Overture
 As per Greek mythology Tartarus refers to an oubliette or dungeon, possibly like Hades, where the evil and wicked were sent to be tormented. The name has also been used to refer to a primordial force or deity [Source: Wiki]. In our world, Tartarus refers to a Multi-Agent platform which can take in your problems and churn out solutions. Tartarus is the new version of Typhon and is built using SWI-Prolog.
 
-Introduction
+## Introduction
 Written in SWI-Prolog, Tartarus, facilitates users to create overlay sort of network of nodes comprising either a single PC/laptop/embedded system or several such devices connected as a LAN (wired/wireless) and then program both static and mobile agents. Agents in Tartarus are basically programs written in Prolog. They can be programmed to perform tasks autonomously at select nodes and even migrate to others in the network they inhabit. Such agents can even be programmed to clone (copy and multiply) on-the-fly and then move around the network and execute tasks concurrently, providing a distributed and decentralized processing environment. These agents can also carry programs as payloads. Payloads could be written in Prolog or Python and executed at desired nodes. One could try out using other languages as well. Agents can communicate amongst one another and also with programs at a node. As of now, Tartarus can be run on Windows, Ubuntu and Raspbian operating systems.
 Tartarus can run on the Raspberry Pi. It can be used to sense the sensors on-board and also control the actuators (motors, relays, etc.) connected to the board.
 
@@ -24,12 +24,12 @@ Tartarus can run on the Raspberry Pi. It can be used to sense the sensors on-boa
 
 Check out a video on Tartarus here: https://www.youtube.com/watch?v=VeryfhtT5Tk
 
-# What has Tartarus been used for, so far?
+## What has Tartarus been used for, so far?
 Agents provide for distributed, centralized/decentralized and concurrent executions across a network.
 They can execute asynchronously and autonomously. At the Robotics Lab. we have used it for a range of application scenarios which include –
 Networked Robot control, IoT based control, Indoor Localization, Synchronization, VANETs, Asynchronous Intelligence Sharing across a network, Decentralized Clonal Controller, On-the-fly-Programming, Green Corridors for urban traffic, IoT for Railways, Algorithm selection, Mutual Exclusions in Real Robots, Emulation of Bio-inspired mechanisms such as Pheromoning, Stigmergy, Clonal Selection, Idiotypic Networks, Genetic Algorithms, etc.
 
-# How can Tartarus help in other areas?
+## How can Tartarus help in other areas?
 A fairly stable version of Tartarus is now also available for the Raspberry Pi. We will be making the same available shortly. This version designated Agents-on-Pi (AgPi) also provides an interface to sensors and actuators on-board the Pi making it easier to program for autonomous decision making. This facilitates rapid prototyping of an intelligent Internet of Things (IoT).
 With data distributed across several nodes, agents (both static and mobile) can be programmed to process them in a decentralized and concurrent manner. Mobile agents can be made to move from one node to another and autonomously control the flow of information between such data islands. Bio-inspired (optimizing) algorithms, which are mostly decentralized and distributed, can be emulated, in almost the way Mother Nature does. By injecting new programs via agents, the behavior of a system can also be changed on-the-fly.
 Thinking aloud, it could be interesting to develop a network wherein the nodes programmed to behave like atoms/molecules in a liquid act concurrently. This could aid in the study of the ways in which a more complex protein molecule develops using mobile agents enacting as portions of the protein chain. Molecule formation could thus be investigated within a network.
@@ -37,7 +37,7 @@ The platform could aid in the making smarter homes, even Green houses and campus
 Simulations could be given up for emulations in Tartarus based networks to churn better and more realistic data in decentralized and distributed scenarios.
 We leave it to you to think louder (!) and get back to the Tartarus team, if required, with the problems you need to tackle. We shall do our best to aid you in making this demon help you find a solution.
 
-# One last yet important note
+## One last yet important note
 Tartarus culminated from years of work and yet we offer the same to you free. It is thus only logical that you cite the following papers when you publish your research derived using this software:
 
 Tushar Semwal, Nikhil S., Shashi Shekhar Jha, Shivashankar B. Nair, TARTARUS: A Multi­ Agent Platform for Bridging the gap between Cyber and Physical Systems, Proceedings of the 2016 Autonomous Agents and Multi Agent Systems Conference, (AAMAS), International Foundation for Autonomous Agents and Multiagent Systems, pp. 1493-1495, Singapore.

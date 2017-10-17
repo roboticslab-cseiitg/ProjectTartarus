@@ -40,9 +40,9 @@ We leave it to you to think louder (!) and get back to the Tartarus team, if req
 ## One last yet important note
 Tartarus culminated from years of work and yet we offer the same to you free. It is thus only logical that you cite the following papers when you publish your research derived using this software:
 
-Tushar Semwal, Nikhil S., Shashi Shekhar Jha, Shivashankar B. Nair, TARTARUS: A Multi­ Agent Platform for Bridging the gap between Cyber and Physical Systems, Proceedings of the 2016 Autonomous Agents and Multi-Agent Systems Conference, (AAMAS), International Foundation for Autonomous Agents and Multiagent Systems, pp. 1493-1495, Singapore.
+Tushar Semwal, Nikhil S., Shashi Shekhar Jha, Shivashankar B. Nair, TARTARUS: A Multi Agent Platform for Bridging the gap between Cyber and Physical Systems, *Proceedings of the 2016 Autonomous Agents and Multi-Agent Systems Conference, (AAMAS), International Foundation for Autonomous Agents and Multiagent Systems*, pp. 1493-1495, Singapore.
 
-Tushar Semwal, Shivashankar B. Nair, AgPi: Agents on Raspberry Pi, Electronics 2016, 5, 72.
+Tushar Semwal, Shivashankar B. Nair, AgPi: Agents on Raspberry Pi, *Electronics 2016, 5, 72*.
 
 Cheers,
 

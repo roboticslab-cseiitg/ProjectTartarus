@@ -1,4 +1,4 @@
-# ProjectTartarus
+# ProjectTartarus <img src="https://github.com/tushar-semwal/ProjectTartarus/blob/master/Images/Tartarus.ico" width="80" height="80" /> 
 ## Overture
 ﻿As per Greek mythology, Tartarus refers to an oubliette or dungeon, possibly like Hades, where the evil and wicked were sent to be tormented. The name has also been used to refer to a primordial force or deity [Source: Wiki]. In our world, Tartarus refers to a Multi-Agent platform which can take in your problems and churn out solutions. Tartarus is the new version of Typhon and is built using SWI-Prolog.
 

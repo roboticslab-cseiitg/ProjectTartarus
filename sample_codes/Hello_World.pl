@@ -3,7 +3,8 @@
 
 
 a_static_agent_handler(guid,(_IP,_Port),main):-
-        writeln('Hello World!'),!.
+        write('Hello World!'),
+        nl,!.
         
         
 %=========================================================%

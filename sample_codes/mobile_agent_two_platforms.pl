@@ -16,15 +16,22 @@ mobile_agent_handler(guid,(_IP,_Port),main):-
 % start_tartarus(localhost,12121).
 % start_tartarus(localhost,12122).
 
-% 2. Consult the mobile_agent_two_platforms.pl file. e.g. consult('path_to_file/mobile_agent_two_platforms.pl'). OR if you are in the same directory, just enter consult('mobile_agent_two_platforms.pl').
+% 2. Set a token as for e.g. 5656 on both the Tartarus platform. e.g.:
+% set_token(5656). % Use the same token on both the platforms.
 
-% 3. Create a mobile agent with a given (or random) name at the Tartarus with Port 12121:
+% 3. Consult the mobile_agent_two_platforms.pl file. e.g. consult('path_to_file/mobile_agent_two_platforms.pl'). OR if you are in the same directory, just enter consult('mobile_agent_two_platforms.pl').
+
+% 4. Create a mobile agent with a given (or random) name at the Tartarus with Port 12121:
 % create_mobile_agent(myagent,mobile_agent_handler).   %--> Remember the DOT (Welcome to Prolog!)
 
-% 4. Move the agent using: 
+% 5. Add a token number to the agent created, e.g. :
+% add_token(myagent,[5656]).
+% NOTE: the second argument is a list of tokens, i.e. you can add multiple tokens for multiple platforms with different tokens.
+
+% 6. Move the agent using: 
 % move_agent(myagent,(localhost,12122)). 
 % NOTE: The agent is created on Port 12121 and moved to port 12122
 
-% 5.You can see the Ack and the agent code executed on platform 12122.
+% 7.You can see the Ack and the agent code executed on platform 12122.
 
-% 6. That's all.
+% 8. That's all.

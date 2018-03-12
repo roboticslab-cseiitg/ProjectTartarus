@@ -669,7 +669,7 @@ execute_agent(Agent_name,(Ip,Port),Handler):- agent_execute(Agent_name,(Ip,Port)
 agent_execute(Agent_name,(Ip,Port),Handler):-                                           %% create agent +Agent_name +Handler +Ip +Port
         (agent_GUID(Agent_name,Handler,(Ip,Port))->
 				Functor =.. [Handler,Agent_name,(Ip,Port),main],                        %% create Functor with handler as predicate name, and arguments as +Agent_new_name, +Ip, +Port
-				writeln(Functor),
+				%writeln(Functor),
                 catch(((guid_threadid(Agent_name,X),integer(X),thread_property(X,status(Y)),Y=running)->
                         guid_threadid(Agent_name,ThID),
                         retractall(guid_threadid(Agent_name,X)),

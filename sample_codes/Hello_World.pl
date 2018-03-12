@@ -4,6 +4,7 @@
 
 a_static_agent_handler(guid,(_IP,_Port),main):-
         write('Hello World!'),
+        % Add your awesome code here
         nl,!.
         
         

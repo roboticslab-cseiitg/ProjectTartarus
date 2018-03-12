@@ -4,6 +4,7 @@
 :- dynamic mobile_agent_handler/3. % This is important as the code will be moving (yes, it will be moving and executing!)
 
 mobile_agent_handler(guid,(_IP,_Port),main):-
+        nl,
         write('Feel my presence!'),
         % Add your awesome code here
         nl,!.

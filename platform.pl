@@ -698,7 +698,7 @@ agent_execute(_Agent_name,(_Ip,_Port),_Handler):-
 agent_execute(Agent_name,(Ip,Port),Handler,Start_function):-                    %% create agent +Agent_name +Handler +Ip +Port
         %writeln('-------agent_execute--------'),
         Functor =.. [Handler,Agent_name,(Ip,Port),Start_function],              %% create Functor with handler as predicate name, and arguments as +Agent_new_name, +Ip, +Port
-		writeln(Functor),
+		%writeln(Functor),
         catch(((guid_threadid(Agent_name,X),integer(X),thread_property(X,status(Y)),Y=running)->
                 (retractall(guid_threadid(Agent_name,X)),thread_signal(X,thread_exit(_)),writeln('old agent thread stopped'));
                 (retractall(guid_threadid(Agent_name,_)))),

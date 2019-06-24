@@ -37,6 +37,8 @@ The platform could aid in the making smarter homes, even Greenhouses and campuse
 Simulations could be given up for emulations in Tartarus based networks to churn better and more realistic data in decentralized and distributed scenarios.
 We leave it to you to think louder (!) and get back to the Tartarus team, if required, with the problems you need to tackle. We shall do our best to aid you in making this demon help you find a solution.
 
+**To Get Started**, check the [WiKi](https://github.com/roboticslab-cseiitg/ProjectTartarus/wiki) page.
+
 ## One last yet important note
 Tartarus culminated from years of work and yet we offer the same to you free. It is thus only logical that you cite the following papers when you publish your research derived using this software:
 

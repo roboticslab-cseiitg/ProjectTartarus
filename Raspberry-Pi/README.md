@@ -1,6 +1,6 @@
 ## Tartarus for Raspberry Pi
 
-The tartarus platform file for the Raspberry Pi is the file tartarus tartarus_2020v2-2.pl
+The tartarus platform file for the Raspberry Pi is the file tartarus tartarus_2020v2-2.pl. For more information of usage of Tartarus, refer tartarus user manual in the User_Manuals folder.
 
 These are other utilities available for Raspberry Pi written in SWI Prolog:
 

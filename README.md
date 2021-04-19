@@ -47,5 +47,4 @@ Tushar Semwal, Nikhil S., Shashi Shekhar Jha, Shivashankar B. Nair, TARTARUS: A 
 Tushar Semwal, Shivashankar B. Nair, AgPi: Agents on Raspberry Pi, *Electronics 2016, 5, 72*.
 
 Cheers,
-
 The Tartarus Team

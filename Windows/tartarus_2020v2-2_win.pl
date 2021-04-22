@@ -1967,7 +1967,8 @@ retract_code_Tartarus_IITG([]):-
 retract_code_Tartarus_IITG([Code|CodeList]):-
         %writeln(Code),writeln('-----------'),
         (
-        retract(Code)->
+        % retractall inserted in place of retract by Ajitem
+        retractall(Code)->
                 true;
                 (write('Could not retract: '),writeln(Code),true)
         ),
@@ -2668,7 +2669,7 @@ sleep_time(Time,P):- sleep(Time), free(P).
 
 /*************** DIALOGS **************/
 
-:- use_module(library(pce)).
+%:- use_module(library(pce)).
 /*USAGE::
 create_dlg/3
 create_dlg(DialogID, DialogTitle, ComponentList)

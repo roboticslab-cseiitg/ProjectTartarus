@@ -48,3 +48,6 @@ This package allows control over an LED using a Raspberry Pi through the followi
 4. Use the ledOn/ledOff predicate to control the LED.
 
 Please refer the Tartarus User Manual for further details pertaining to the concerned predicate(s).
+
+
+Please ensure to use the BOARD mode while wiring the Raspberry Pi. If required, the mode can be changed in the corresponding '<xyz>.py' files.
